@@ -1,0 +1,10 @@
+.table-border{
+    border : 5px double rgb(59, 54, 54);
+}
+
+.price-detail{
+    border : 5px double rgb(59, 54, 54);
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}

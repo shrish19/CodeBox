@@ -1,0 +1,15 @@
+assemble:
+    - from: build/static
+      into: static
+checkout-spa:
+    cssURLs:
+    - css/main.*.css
+    friendlyURLMapping: checkout-spa
+    htmlElementName: checkout-spa
+    instanceable: false
+    name: Checkout Spa
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.*.js
+    useESM: true
